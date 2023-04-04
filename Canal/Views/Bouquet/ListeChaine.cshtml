@@ -1,0 +1,21 @@
+@model List<Chaine>
+
+<h1>Liste des chaines du @ViewBag.Nom</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prix</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var chaine in Model) 
+        {
+            <tr>
+                <td>@chaine.Nom</td>
+                <td>@chaine.Prix Ar</td>
+            </tr>
+        }
+    </tbody>
+</table>

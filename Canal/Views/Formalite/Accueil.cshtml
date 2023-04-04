@@ -1,0 +1,26 @@
+@model List<UserValideBouquet>
+
+@Html.ActionLink("Liste des bouquets", "Bouquets", "Bouquet", new { idUser = @ViewBag.idUtilisateur })
+<h1>Abonnements actifs</h1>
+<table class="table">
+    <tr>
+        <th>Nom</th>
+        <th>Date debut</th>
+        <th>Date Fin</th>
+        <th>Prix</th>
+        <th>Action</th>
+    </tr>
+    <tbody>
+            @foreach(var bouquet in Model) 
+            {
+                <tr>
+                    <td>@bouquet.nom</td>
+                    <td>@bouquet.dateDebut</td>
+                    <td>@bouquet.dateFin</td>
+                    <td>@bouquet.prix</td>
+                    <td>@Html.ActionLink("Mes chaine", "ListeChaine", "Bouquet", new { idBouquet = @bouquet.idBouquet })</td>
+                   <td>@Html.ActionLink("Recharger", "Recharger", "Bouquet", new { idBouquet = @bouquet.idBouquet, idUtilisateur = @ViewBag.idUtilisateur, idRechargement = @bouquet.idRechargement })</td>
+                </tr>
+            }
+        </tbody>
+</table>

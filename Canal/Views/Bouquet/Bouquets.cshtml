@@ -1,0 +1,44 @@
+@model List<Bouquet> 
+<p>L'ID de l'utilisateur est : @ViewBag.idUser</p>
+
+<h1>Liste des bouquets disponnible dans votre region</h1>
+
+<form action="/Bouquet/Achats" method="post">
+<label>Today: </label>
+<input type="datetime-local" name="date">
+for <input type="number" name="nombre"> month
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prix</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var bouquet in Model) 
+            {
+                <tr>
+                    <td>@bouquet.GetNom()</td>
+                    <td>@bouquet.GetTotalPrice() Ar</td>
+                    <td>@Html.ActionLink("Voir les chaines", "ListeChaine", "Bouquet", new { idBouquet = @bouquet.IdBouquet })</td>
+                    <td><input type="checkbox" name="bouquets[]" value=@bouquet.IdBouquet ></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <input type="hidden" value=@ViewBag.idUser name="idUtilisateur">
+    <input type="submit" value="Acheter">
+</form>
+@Html.ActionLink("Creer mon propre bouquet", "ChoixChaine", "Bouquet", new { idRegion = 1 })
+<style>
+    @* body{
+        background-color: black;
+        color: white;
+    }
+    td,th{
+        color:white;
+    } *@
+    table{
+        margin-top: 3%;
+    }
+</style>

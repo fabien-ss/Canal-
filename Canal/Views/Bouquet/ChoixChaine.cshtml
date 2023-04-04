@@ -1,0 +1,27 @@
+@model List<Chaine>
+
+<h1>Optez pour un bouquet personnalise selon vos gout</h1>
+<form>
+    Nommez votre bouquet: <input type="text" name="nom">
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prix</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var chaine in Model) 
+        {
+            <tr>
+                <td>@chaine.Nom</td>
+                <td>@chaine.Prix Ar</td>
+                <td>
+                    <input type="checkbox" name="chaines[]" value=@chaine.IdChaine>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<input type="submit" value="VALIDER">
+</form>

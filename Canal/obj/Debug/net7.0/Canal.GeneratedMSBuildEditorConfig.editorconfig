@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Canal
+build_property.RootNamespace = Canal
+build_property.ProjectDir = D:\ITUNIVERSITY\S4\Prog\.net\Canal\Canal\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ITUNIVERSITY\S4\Prog\.net\Canal\Canal
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Bouquet/Achats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm91cXVldFxBY2hhdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Bouquet/Bouquets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm91cXVldFxCb3VxdWV0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Bouquet/ChoixChaine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm91cXVldFxDaG9peENoYWluZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Bouquet/Client.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm91cXVldFxDbGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Bouquet/Commande.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm91cXVldFxDb21tYW5kZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Bouquet/ListeChaine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm91cXVldFxMaXN0ZUNoYWluZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Bouquet/Recharger.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm91cXVldFxSZWNoYXJnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Formalite/Accueil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybWFsaXRlXEFjY3VlaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Formalite/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybWFsaXRlXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Formalite/Inscription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybWFsaXRlXEluc2NyaXB0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Formalite/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybWFsaXRlXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Profil/Utilisateur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsXFV0aWxpc2F0ZXVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITUNIVERSITY/S4/Prog/.net/Canal/Canal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eumucttfrt

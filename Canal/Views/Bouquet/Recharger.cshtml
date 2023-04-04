@@ -1,0 +1,19 @@
+@model Bouquet
+<h3>Vous allez recharger @Model.GetNom(), soyez sure de vous</h3>
+<h3>Prix unique @Model.GetTotalPrice()</h3>
+<h4>Rechargement continu</h4>
+<form action="/Bouquet/Continu" method="post">
+    Nombre de mois: <input type="number" name="nombre">
+    <input type="hidden" name="idBouquet" value=@Model.IdBouquet>
+    <input type="hidden" name="idUtilisateur" value=@ViewBag.idUtilisateur>
+    <input type="hidden" name="idRechargement" value=@ViewBag.idRechargement>
+    <input type="submit">
+</form>
+<h4>Rechargement non continu</h4>
+<form action="/Bouquet/Non_continu" method="post">
+    Jour debut <input type="datetime-local" name="date">
+    Nombre de mois: <input type="number" name="nombre">
+    <input type="hidden" name="idBouquet" value=@Model.GetBouquetById()>
+    <input type="hidden" name="idUtilisateur" value=@ViewBag.idUtilisateur>
+    <input type="submit">
+</form>

@@ -1,0 +1,7 @@
+@model Bouquet
+<form action="/Bouquet/Acheter" method="post">
+    A partir de <input type="datetime-local" name="dateDebut">
+    Pour <input type="number" name="durree"> mois
+    <input type="hidden" name="idBouquet" value=@Model.IdBouquet>
+    <input type="submit">
+</form>
